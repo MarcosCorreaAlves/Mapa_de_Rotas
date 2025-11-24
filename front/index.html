@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mapa de Rotas de Cidades — AED II</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="title">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <div class="main-title">Mapa de Rotas de Cidades</div>
+          <div class="subtitle">AED II • Grafo ponderado + Dijkstra (menor caminho)</div>
+        </div>
+      </div>
+      <div class="chips" id="metaChips"></div>
+    </header>
+
+    <aside class="panel left">
+      <!-- REMOVIDO: bloco de "Carregar grafo (.json)" -->
+
+      <div class="group row">
+        <div>
+          <label for="origem">Origem</label>
+          <select id="origem"></select>
+        </div>
+        <div>
+          <label for="destino">Destino</label>
+          <select id="destino"></select>
+        </div>
+      </div>
+
+      <div class="row">
+        <button id="btnCalcular">Calcular menor caminho</button>
+        <button class="secondary" id="btnLimpar">Limpar</button>
+      </div>
+
+      <div class="group">
+        <label>Resultado</label>
+        <div id="resultado" class="panel panel-result">
+          <div id="rota" class="chips"></div>
+          <div class="result-footer">
+            <span id="custo" class="pill ok" title="Custo total da rota">Custo: —</span>
+            <button class="ghost" id="btnExportar">Exportar JSON</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="group">
+        <label>Ferramentas</label>
+        <div class="row">
+          <button class="secondary" id="btnAutoLayout">Auto-layout</button>
+          <button class="secondary" id="btnGerarPesos">Gerar novos pesos</button>
+        </div>
+      </div>
+
+      <div class="group">
+        <label>Dica</label>
+        <div class="pill warn">
+          Dê duplo-clique em um nó para arrastar (layout manual).
+        </div>
+      </div>
+    </aside>
+
+    <section class="panel right">
+      <div class="toolbar">
+        <button class="secondary" id="zoomIn">＋</button>
+        <button class="secondary" id="zoomReset">100%</button>
+        <button class="secondary" id="zoomOut">－</button>
+      </div>
+      <div class="board" id="board">
+        <svg id="svg" viewBox="0 0 1000 700" preserveAspectRatio="xMidYMid meet"></svg>
+      </div>
+    </section>
+
+    <footer>
+      Trabalho Prático — Algoritmos e Estruturas de Dados II • Prof. Alternei Brito — Interface por sua equipe ✨
+    </footer>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

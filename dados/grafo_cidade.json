@@ -1,0 +1,126 @@
+{
+  "vertices": [
+    {
+      "id": "A",
+      "nome": "Centro",
+      "x": 1,
+      "y": 3
+    },
+    {
+      "id": "B",
+      "nome": "Shopping",
+      "x": 2,
+      "y": 3
+    },
+    {
+      "id": "C",
+      "nome": "Hospital",
+      "x": 3,
+      "y": 3
+    },
+    {
+      "id": "D",
+      "nome": "Escola",
+      "x": 1,
+      "y": 2
+    },
+    {
+      "id": "E",
+      "nome": "Praça",
+      "x": 2,
+      "y": 2
+    },
+    {
+      "id": "F",
+      "nome": "Estação",
+      "x": 3,
+      "y": 2
+    },
+    {
+      "id": "G",
+      "nome": "Parque",
+      "x": 1,
+      "y": 1
+    },
+    {
+      "id": "H",
+      "nome": "Mercado",
+      "x": 2,
+      "y": 1
+    },
+    {
+      "id": "I",
+      "nome": "Biblioteca",
+      "x": 3,
+      "y": 1
+    },
+    {
+      "id": "J",
+      "nome": "Aeroporto",
+      "x": 2,
+      "y": 0
+    }
+  ],
+  "arestas": [
+    {
+      "origem": "A",
+      "destino": "B"
+    },
+    {
+      "origem": "A",
+      "destino": "D"
+    },
+    {
+      "origem": "A",
+      "destino": "E"
+    },
+    {
+      "origem": "B",
+      "destino": "C"
+    },
+    {
+      "origem": "B",
+      "destino": "E"
+    },
+    {
+      "origem": "C",
+      "destino": "F"
+    },
+    {
+      "origem": "D",
+      "destino": "E"
+    },
+    {
+      "origem": "D",
+      "destino": "G"
+    },
+    {
+      "origem": "E",
+      "destino": "F"
+    },
+    {
+      "origem": "E",
+      "destino": "H"
+    },
+    {
+      "origem": "E",
+      "destino": "I"
+    },
+    {
+      "origem": "F",
+      "destino": "I"
+    },
+    {
+      "origem": "G",
+      "destino": "H"
+    },
+    {
+      "origem": "H",
+      "destino": "I"
+    },
+    {
+      "origem": "H",
+      "destino": "J"
+    }
+  ]
+}

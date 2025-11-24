@@ -1,0 +1,94 @@
+{
+  "arestas": [
+    {
+      "origem": "A",
+      "destino": "B",
+      "peso": 4,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "A",
+      "destino": "D",
+      "peso": 4,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "A",
+      "destino": "E",
+      "peso": 1,
+      "motivo": "Via expressa"
+    },
+    {
+      "origem": "B",
+      "destino": "C",
+      "peso": 7,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "B",
+      "destino": "E",
+      "peso": 2,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "C",
+      "destino": "F",
+      "peso": 4,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "D",
+      "destino": "E",
+      "peso": 3,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "D",
+      "destino": "G",
+      "peso": 4,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "E",
+      "destino": "F",
+      "peso": 16,
+      "motivo": "Acidente na via"
+    },
+    {
+      "origem": "E",
+      "destino": "H",
+      "peso": 4,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "E",
+      "destino": "I",
+      "peso": 9,
+      "motivo": "Trânsito intenso"
+    },
+    {
+      "origem": "F",
+      "destino": "I",
+      "peso": 17,
+      "motivo": "Acidente na via"
+    },
+    {
+      "origem": "G",
+      "destino": "H",
+      "peso": 3,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "H",
+      "destino": "I",
+      "peso": 13,
+      "motivo": "Rua em obras"
+    },
+    {
+      "origem": "H",
+      "destino": "J",
+      "peso": 7,
+      "motivo": "Trânsito intenso"
+    }
+  ]
+}
