@@ -3,62 +3,158 @@
     {
       "id": "A",
       "nome": "Centro",
-      "x": 1,
-      "y": 3
+      "x": 3,
+      "y": 15
     },
     {
       "id": "B",
       "nome": "Shopping",
-      "x": 2,
-      "y": 3
+      "x": 6,
+      "y": 15
     },
     {
       "id": "C",
       "nome": "Hospital",
-      "x": 3,
-      "y": 3
+      "x": 9,
+      "y": 15
     },
     {
       "id": "D",
       "nome": "Escola",
-      "x": 1,
-      "y": 2
+      "x": 12,
+      "y": 15
     },
     {
       "id": "E",
       "nome": "Praça",
-      "x": 2,
-      "y": 2
+      "x": 15,
+      "y": 15
     },
     {
       "id": "F",
       "nome": "Estação",
-      "x": 3,
-      "y": 2
+      "x": 18,
+      "y": 15
     },
     {
       "id": "G",
       "nome": "Parque",
-      "x": 1,
-      "y": 1
+      "x": 3,
+      "y": 12
     },
     {
       "id": "H",
       "nome": "Mercado",
-      "x": 2,
-      "y": 1
+      "x": 6,
+      "y": 12
     },
     {
       "id": "I",
       "nome": "Biblioteca",
-      "x": 3,
-      "y": 1
+      "x": 9,
+      "y": 12
     },
     {
       "id": "J",
       "nome": "Aeroporto",
-      "x": 2,
-      "y": 0
+      "x": 12,
+      "y": 12
+    },
+    {
+      "id": "K",
+      "nome": "Rodoviária",
+      "x": 15,
+      "y": 12
+    },
+    {
+      "id": "L",
+      "nome": "Prefeitura",
+      "x": 18,
+      "y": 12
+    },
+    {
+      "id": "M",
+      "nome": "Museu",
+      "x": 3,
+      "y": 9
+    },
+    {
+      "id": "N",
+      "nome": "Teatro",
+      "x": 6,
+      "y": 9
+    },
+    {
+      "id": "O",
+      "nome": "Estádio",
+      "x": 9,
+      "y": 9
+    },
+    {
+      "id": "P",
+      "nome": "Jardim Botânico",
+      "x": 12,
+      "y": 9
+    },
+    {
+      "id": "Q",
+      "nome": "Universidade",
+      "x": 15,
+      "y": 9
+    },
+    {
+      "id": "R",
+      "nome": "Fórum",
+      "x": 18,
+      "y": 9
+    },
+    {
+      "id": "S",
+      "nome": "Delegacia",
+      "x": 3,
+      "y": 6
+    },
+    {
+      "id": "T",
+      "nome": "Correios",
+      "x": 6,
+      "y": 6
+    },
+    {
+      "id": "U",
+      "nome": "Padaria",
+      "x": 9,
+      "y": 6
+    },
+    {
+      "id": "V",
+      "nome": "Farmácia",
+      "x": 12,
+      "y": 6
+    },
+    {
+      "id": "W",
+      "nome": "Banco",
+      "x": 15,
+      "y": 6
+    },
+    {
+      "id": "X",
+      "nome": "Posto de Saúde",
+      "x": 18,
+      "y": 6
+    },
+    {
+      "id": "Y",
+      "nome": "Pizzaria",
+      "x": 3,
+      "y": 3
+    },
+    {
+      "id": "Z",
+      "nome": "Cinema",
+      "x": 6,
+      "y": 3
     }
   ],
   "arestas": [
@@ -68,11 +164,11 @@
     },
     {
       "origem": "A",
-      "destino": "D"
+      "destino": "G"
     },
     {
       "origem": "A",
-      "destino": "E"
+      "destino": "H"
     },
     {
       "origem": "B",
@@ -80,47 +176,267 @@
     },
     {
       "origem": "B",
-      "destino": "E"
-    },
-    {
-      "origem": "C",
-      "destino": "F"
-    },
-    {
-      "origem": "D",
-      "destino": "E"
-    },
-    {
-      "origem": "D",
-      "destino": "G"
-    },
-    {
-      "origem": "E",
-      "destino": "F"
-    },
-    {
-      "origem": "E",
       "destino": "H"
     },
     {
-      "origem": "E",
+      "origem": "B",
       "destino": "I"
     },
     {
-      "origem": "F",
+      "origem": "B",
+      "destino": "G"
+    },
+    {
+      "origem": "C",
+      "destino": "D"
+    },
+    {
+      "origem": "C",
       "destino": "I"
+    },
+    {
+      "origem": "C",
+      "destino": "J"
+    },
+    {
+      "origem": "C",
+      "destino": "H"
+    },
+    {
+      "origem": "D",
+      "destino": "E"
+    },
+    {
+      "origem": "D",
+      "destino": "J"
+    },
+    {
+      "origem": "D",
+      "destino": "K"
+    },
+    {
+      "origem": "D",
+      "destino": "I"
+    },
+    {
+      "origem": "E",
+      "destino": "F"
+    },
+    {
+      "origem": "E",
+      "destino": "K"
+    },
+    {
+      "origem": "E",
+      "destino": "L"
+    },
+    {
+      "origem": "E",
+      "destino": "J"
+    },
+    {
+      "origem": "F",
+      "destino": "L"
     },
     {
       "origem": "G",
       "destino": "H"
     },
     {
+      "origem": "G",
+      "destino": "M"
+    },
+    {
+      "origem": "G",
+      "destino": "N"
+    },
+    {
       "origem": "H",
       "destino": "I"
     },
     {
       "origem": "H",
+      "destino": "N"
+    },
+    {
+      "origem": "H",
+      "destino": "O"
+    },
+    {
+      "origem": "H",
+      "destino": "M"
+    },
+    {
+      "origem": "I",
       "destino": "J"
+    },
+    {
+      "origem": "I",
+      "destino": "O"
+    },
+    {
+      "origem": "I",
+      "destino": "P"
+    },
+    {
+      "origem": "I",
+      "destino": "N"
+    },
+    {
+      "origem": "J",
+      "destino": "K"
+    },
+    {
+      "origem": "J",
+      "destino": "P"
+    },
+    {
+      "origem": "J",
+      "destino": "Q"
+    },
+    {
+      "origem": "J",
+      "destino": "O"
+    },
+    {
+      "origem": "K",
+      "destino": "L"
+    },
+    {
+      "origem": "K",
+      "destino": "Q"
+    },
+    {
+      "origem": "K",
+      "destino": "R"
+    },
+    {
+      "origem": "K",
+      "destino": "P"
+    },
+    {
+      "origem": "L",
+      "destino": "R"
+    },
+    {
+      "origem": "M",
+      "destino": "N"
+    },
+    {
+      "origem": "M",
+      "destino": "S"
+    },
+    {
+      "origem": "M",
+      "destino": "T"
+    },
+    {
+      "origem": "N",
+      "destino": "O"
+    },
+    {
+      "origem": "N",
+      "destino": "T"
+    },
+    {
+      "origem": "N",
+      "destino": "U"
+    },
+    {
+      "origem": "N",
+      "destino": "S"
+    },
+    {
+      "origem": "O",
+      "destino": "P"
+    },
+    {
+      "origem": "O",
+      "destino": "U"
+    },
+    {
+      "origem": "O",
+      "destino": "V"
+    },
+    {
+      "origem": "O",
+      "destino": "T"
+    },
+    {
+      "origem": "P",
+      "destino": "Q"
+    },
+    {
+      "origem": "P",
+      "destino": "V"
+    },
+    {
+      "origem": "P",
+      "destino": "W"
+    },
+    {
+      "origem": "P",
+      "destino": "U"
+    },
+    {
+      "origem": "Q",
+      "destino": "R"
+    },
+    {
+      "origem": "Q",
+      "destino": "W"
+    },
+    {
+      "origem": "Q",
+      "destino": "X"
+    },
+    {
+      "origem": "Q",
+      "destino": "V"
+    },
+    {
+      "origem": "R",
+      "destino": "X"
+    },
+    {
+      "origem": "S",
+      "destino": "T"
+    },
+    {
+      "origem": "S",
+      "destino": "Y"
+    },
+    {
+      "origem": "S",
+      "destino": "Z"
+    },
+    {
+      "origem": "T",
+      "destino": "U"
+    },
+    {
+      "origem": "T",
+      "destino": "Z"
+    },
+    {
+      "origem": "T",
+      "destino": "Y"
+    },
+    {
+      "origem": "U",
+      "destino": "V"
+    },
+    {
+      "origem": "V",
+      "destino": "W"
+    },
+    {
+      "origem": "W",
+      "destino": "X"
+    },
+    {
+      "origem": "Y",
+      "destino": "Z"
     }
   ]
 }
