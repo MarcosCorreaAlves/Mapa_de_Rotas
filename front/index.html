@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mapa de Rotas de Cidades — AED II</title>
   <link rel="stylesheet" href="styles.css" />
+
+
+
 </head>
 <body>
   <div class="app">
@@ -20,7 +23,6 @@
     </header>
 
     <aside class="panel left">
-      <!-- REMOVIDO: bloco de "Carregar grafo (.json)" -->
 
       <div class="group row">
         <div>
@@ -41,7 +43,13 @@
       <div class="group">
         <label>Resultado</label>
         <div id="resultado" class="panel panel-result">
+
+          <!-- Rota em chips -->
           <div id="rota" class="chips"></div>
+
+          <!-- 🔥 Detalhes no estilo do terminal -->
+          <div id="detalhesRota" class="rota-detalhes"></div>
+
           <div class="result-footer">
             <span id="custo" class="pill ok" title="Custo total da rota">Custo: —</span>
             <button class="ghost" id="btnExportar">Exportar JSON</button>
