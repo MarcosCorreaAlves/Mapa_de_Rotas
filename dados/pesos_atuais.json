@@ -3,92 +3,422 @@
     {
       "origem": "A",
       "destino": "B",
-      "peso": 4,
-      "motivo": "Trânsito livre"
-    },
-    {
-      "origem": "A",
-      "destino": "D",
-      "peso": 4,
-      "motivo": "Trânsito livre"
-    },
-    {
-      "origem": "A",
-      "destino": "E",
-      "peso": 1,
-      "motivo": "Via expressa"
-    },
-    {
-      "origem": "B",
-      "destino": "C",
       "peso": 7,
       "motivo": "Trânsito moderado"
     },
     {
-      "origem": "B",
-      "destino": "E",
-      "peso": 2,
-      "motivo": "Trânsito livre"
-    },
-    {
-      "origem": "C",
-      "destino": "F",
-      "peso": 4,
-      "motivo": "Trânsito livre"
-    },
-    {
-      "origem": "D",
-      "destino": "E",
-      "peso": 3,
-      "motivo": "Trânsito livre"
-    },
-    {
-      "origem": "D",
+      "origem": "A",
       "destino": "G",
-      "peso": 4,
-      "motivo": "Trânsito moderado"
-    },
-    {
-      "origem": "E",
-      "destino": "F",
-      "peso": 16,
-      "motivo": "Acidente na via"
-    },
-    {
-      "origem": "E",
-      "destino": "H",
-      "peso": 4,
-      "motivo": "Trânsito livre"
-    },
-    {
-      "origem": "E",
-      "destino": "I",
       "peso": 9,
       "motivo": "Trânsito intenso"
     },
     {
-      "origem": "F",
+      "origem": "A",
+      "destino": "H",
+      "peso": 5,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "B",
+      "destino": "C",
+      "peso": 4,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "B",
+      "destino": "H",
+      "peso": 4,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "B",
       "destino": "I",
       "peso": 17,
       "motivo": "Acidente na via"
     },
     {
+      "origem": "B",
+      "destino": "G",
+      "peso": 10,
+      "motivo": "Trânsito intenso"
+    },
+    {
+      "origem": "C",
+      "destino": "D",
+      "peso": 14,
+      "motivo": "Acidente na via"
+    },
+    {
+      "origem": "C",
+      "destino": "I",
+      "peso": 5,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "C",
+      "destino": "J",
+      "peso": 4,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "C",
+      "destino": "H",
+      "peso": 12,
+      "motivo": "Rua em obras"
+    },
+    {
+      "origem": "D",
+      "destino": "E",
+      "peso": 4,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "D",
+      "destino": "J",
+      "peso": 3,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "D",
+      "destino": "K",
+      "peso": 7,
+      "motivo": "Trânsito intenso"
+    },
+    {
+      "origem": "D",
+      "destino": "I",
+      "peso": 13,
+      "motivo": "Rua em obras"
+    },
+    {
+      "origem": "E",
+      "destino": "F",
+      "peso": 4,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "E",
+      "destino": "K",
+      "peso": 3,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "E",
+      "destino": "L",
+      "peso": 10,
+      "motivo": "Trânsito intenso"
+    },
+    {
+      "origem": "E",
+      "destino": "J",
+      "peso": 2,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "F",
+      "destino": "L",
+      "peso": 7,
+      "motivo": "Trânsito moderado"
+    },
+    {
       "origem": "G",
       "destino": "H",
+      "peso": 6,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "G",
+      "destino": "M",
+      "peso": 7,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "G",
+      "destino": "N",
       "peso": 3,
       "motivo": "Trânsito livre"
     },
     {
       "origem": "H",
       "destino": "I",
+      "peso": 1,
+      "motivo": "Via expressa"
+    },
+    {
+      "origem": "H",
+      "destino": "N",
+      "peso": 10,
+      "motivo": "Trânsito intenso"
+    },
+    {
+      "origem": "H",
+      "destino": "O",
+      "peso": 4,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "H",
+      "destino": "M",
+      "peso": 1,
+      "motivo": "Via expressa"
+    },
+    {
+      "origem": "I",
+      "destino": "J",
+      "peso": 2,
+      "motivo": "Via expressa"
+    },
+    {
+      "origem": "I",
+      "destino": "O",
+      "peso": 6,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "I",
+      "destino": "P",
+      "peso": 8,
+      "motivo": "Trânsito intenso"
+    },
+    {
+      "origem": "I",
+      "destino": "N",
+      "peso": 3,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "J",
+      "destino": "K",
+      "peso": 2,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "J",
+      "destino": "P",
+      "peso": 6,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "J",
+      "destino": "Q",
+      "peso": 999,
+      "motivo": "Rua fechada"
+    },
+    {
+      "origem": "J",
+      "destino": "O",
+      "peso": 4,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "K",
+      "destino": "L",
+      "peso": 6,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "K",
+      "destino": "Q",
+      "peso": 1,
+      "motivo": "Via expressa"
+    },
+    {
+      "origem": "K",
+      "destino": "R",
+      "peso": 7,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "K",
+      "destino": "P",
+      "peso": 9,
+      "motivo": "Trânsito intenso"
+    },
+    {
+      "origem": "L",
+      "destino": "R",
+      "peso": 7,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "M",
+      "destino": "N",
+      "peso": 4,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "M",
+      "destino": "S",
+      "peso": 8,
+      "motivo": "Trânsito intenso"
+    },
+    {
+      "origem": "M",
+      "destino": "T",
       "peso": 13,
       "motivo": "Rua em obras"
     },
     {
-      "origem": "H",
-      "destino": "J",
+      "origem": "N",
+      "destino": "O",
+      "peso": 16,
+      "motivo": "Acidente na via"
+    },
+    {
+      "origem": "N",
+      "destino": "T",
       "peso": 7,
       "motivo": "Trânsito intenso"
+    },
+    {
+      "origem": "N",
+      "destino": "U",
+      "peso": 15,
+      "motivo": "Acidente na via"
+    },
+    {
+      "origem": "N",
+      "destino": "S",
+      "peso": 1,
+      "motivo": "Via expressa"
+    },
+    {
+      "origem": "O",
+      "destino": "P",
+      "peso": 5,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "O",
+      "destino": "U",
+      "peso": 4,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "O",
+      "destino": "V",
+      "peso": 13,
+      "motivo": "Acidente na via"
+    },
+    {
+      "origem": "O",
+      "destino": "T",
+      "peso": 5,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "P",
+      "destino": "Q",
+      "peso": 1,
+      "motivo": "Via expressa"
+    },
+    {
+      "origem": "P",
+      "destino": "V",
+      "peso": 4,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "P",
+      "destino": "W",
+      "peso": 4,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "P",
+      "destino": "U",
+      "peso": 10,
+      "motivo": "Trânsito intenso"
+    },
+    {
+      "origem": "Q",
+      "destino": "R",
+      "peso": 10,
+      "motivo": "Trânsito intenso"
+    },
+    {
+      "origem": "Q",
+      "destino": "W",
+      "peso": 2,
+      "motivo": "Via expressa"
+    },
+    {
+      "origem": "Q",
+      "destino": "X",
+      "peso": 10,
+      "motivo": "Trânsito intenso"
+    },
+    {
+      "origem": "Q",
+      "destino": "V",
+      "peso": 5,
+      "motivo": "Trânsito moderado"
+    },
+    {
+      "origem": "R",
+      "destino": "X",
+      "peso": 13,
+      "motivo": "Rua em obras"
+    },
+    {
+      "origem": "S",
+      "destino": "T",
+      "peso": 2,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "S",
+      "destino": "Y",
+      "peso": 4,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "S",
+      "destino": "Z",
+      "peso": 8,
+      "motivo": "Trânsito intenso"
+    },
+    {
+      "origem": "T",
+      "destino": "U",
+      "peso": 2,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "T",
+      "destino": "Z",
+      "peso": 11,
+      "motivo": "Rua em obras"
+    },
+    {
+      "origem": "T",
+      "destino": "Y",
+      "peso": 17,
+      "motivo": "Acidente na via"
+    },
+    {
+      "origem": "U",
+      "destino": "V",
+      "peso": 9,
+      "motivo": "Trânsito intenso"
+    },
+    {
+      "origem": "V",
+      "destino": "W",
+      "peso": 3,
+      "motivo": "Trânsito livre"
+    },
+    {
+      "origem": "W",
+      "destino": "X",
+      "peso": 16,
+      "motivo": "Acidente na via"
+    },
+    {
+      "origem": "Y",
+      "destino": "Z",
+      "peso": 4,
+      "motivo": "Trânsito moderado"
     }
   ]
 }
